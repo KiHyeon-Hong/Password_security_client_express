@@ -1,4 +1,5 @@
-const passwordSecurityClient = require('./PasswordSecurityClient');
+// const passwordSecurityClient = require('./PasswordSecurityClient');
+const passwordSecurityClient = require('@kihyeon-hong/passwordsecurityclient');
 const request = require('request');
 
 // request.get(

@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@kihyeon-hong/passwordsecurityclient": "^1.0.0",
     "request": "^2.88.2"
   }
 }
