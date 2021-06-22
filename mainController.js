@@ -1,5 +1,5 @@
-// const passwordSecurityClient = require('./PasswordSecurityClient');
-const passwordSecurityClient = require('@kihyeon-hong/passwordsecurityclient');
+const passwordSecurityClient = require('./PasswordSecurityClient');
+// const passwordSecurityClient = require('@kihyeon-hong/passwordsecurityclient');
 const request = require('request');
 const fs = require('fs');
 const http = require('http');
@@ -18,10 +18,10 @@ const http = require('http');
 //   }
 // );
 
-const file = fs.createWriteStream("weights.bin");
-http.get("http://localhost:65001/download", function(response) {
-  response.pipe(file);
-});
+// const file = fs.createWriteStream("weights.bin");
+// http.get("http://localhost:65001/download", function(response) {
+//   response.pipe(file);
+// });
 
 
 // console.log(passwordSecurityClient.passwordSecurityClient.test());
