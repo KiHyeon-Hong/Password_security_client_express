@@ -6,4 +6,6 @@ var pwd = new PasswordSecurityClient.PasswordSecurity.PasswordSecurity();
 //     console.log(result);
 // });
 
-console.log(pwd.passwordValidationTest("pds$66wo@d"));
+pwd.passwordValidation("pds$66wo@d").then(function(result) {
+    console.log(result);
+});
