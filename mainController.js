@@ -5,6 +5,6 @@ const fs = require('fs');
 const http = require('http');
 
 var pwd = new PasswordSecurityClient.PasswordSecurity.PasswordSecurity();
-// pwd.passwordModelDistribution('0.1', 'comment');
+// pwd.passwordModelDistribution('0.2', 'comment');
 
 
