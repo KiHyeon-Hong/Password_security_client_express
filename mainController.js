@@ -2,9 +2,9 @@ const request = require('request');
 const fs = require('fs');
 const http = require('http');
 
-const PasswordSecurityClient = require('./PasswordSecurityClient');
+// const PasswordSecurityClient = require('./PasswordSecurityClient');
 const PasswordSecurityClient = require('@kihyeon-hong/password_security_client');
-// var pwd = new PasswordSecurityClient.PasswordSecurity.PasswordSecurity();
+var pwd = new PasswordSecurityClient.PasswordSecurity.PasswordSecurity();
 
 // 학습된 예측모델 받아오기
 // pwd.passwordModelDistribution('0.1', 'test comment');
